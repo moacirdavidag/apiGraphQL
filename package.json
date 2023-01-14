@@ -1,0 +1,25 @@
+{
+  "name": "apigraphql",
+  "version": "0.0.0",
+  "description": "Exemplo de implementação de uma API com GraphQL e Node.js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "keywords": [
+    "API",
+    "GraphQL",
+    "Node.js",
+    "JavaScript"
+  ],
+  "author": "moacirdavidag",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
